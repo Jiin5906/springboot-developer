@@ -14,11 +14,11 @@ spring:
       client:
         registration:
           google:
-            client-id: 973465807974-9ebs8ruuhblh7t0626cghafa4o202l6f.apps.googleusercontent.com
-            client-secret: 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
+            client-id: test-id
+            client-secret: test-secret
             scope:
               - email
               - profile
 jwt:
   issuer: ajufresh@gmail.com
-  secret_key: study-springboot
+  secret_key: test-key
